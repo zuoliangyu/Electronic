@@ -1,0 +1,280 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.1.0 Build 162 10/23/2013 SJ Full Version
+# Date created = 15:56:53  August 04, 2020
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		CNT32_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE6E22C8
+set_global_assignment -name TOP_LEVEL_ENTITY TOP
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "15:56:53  AUGUST 04, 2020"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.0.0 Standard Edition"
+set_global_assignment -name VHDL_FILE CNT32.vhd
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name VECTOR_WAVEFORM_FILE CNT32.vwf
+set_global_assignment -name EDA_NETLIST_WRITER_OUTPUT_DIR "C:/Experiment/CNT321/simulation/qsim/" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name VHDL_FILE DSP_IN.vhd
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name VHDL_FILE DSP_OUT.vhd
+set_global_assignment -name ENABLE_CONFIGURATION_PINS OFF
+set_global_assignment -name ENABLE_NCE_PIN OFF
+set_global_assignment -name ENABLE_BOOT_SEL_PIN OFF
+set_global_assignment -name USE_CONFIGURATION_DEVICE OFF
+set_global_assignment -name CRC_ERROR_OPEN_DRAIN OFF
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_global_assignment -name BDF_FILE TOP.bdf
+set_location_assignment PIN_23 -to INCLK
+set_location_assignment PIN_46 -to RD
+set_location_assignment PIN_44 -to CS
+set_location_assignment PIN_49 -to WR
+set_location_assignment PIN_1 -to DB[0]
+set_location_assignment PIN_2 -to DB[1]
+set_location_assignment PIN_3 -to DB[2]
+set_location_assignment PIN_7 -to DB[3]
+set_location_assignment PIN_11 -to DB[5]
+set_location_assignment PIN_10 -to DB[4]
+set_location_assignment PIN_28 -to DB[6]
+set_location_assignment PIN_30 -to DB[7]
+set_location_assignment PIN_31 -to DB[8]
+set_location_assignment PIN_32 -to DB[9]
+set_location_assignment PIN_33 -to DB[10]
+set_location_assignment PIN_34 -to DB[11]
+set_location_assignment PIN_38 -to DB[12]
+set_location_assignment PIN_39 -to DB[13]
+set_location_assignment PIN_42 -to DB[14]
+set_location_assignment PIN_43 -to DB[15]
+set_global_assignment -name VHDL_FILE DSP_OUT1.vhd
+set_global_assignment -name VHDL_FILE FREQ_DEV.vhd
+set_global_assignment -name VHDL_FILE FREQ_WORD.vhd
+set_global_assignment -name CYCLONEII_RESERVE_NCEO_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name QIP_FILE fifo0.qip
+set_global_assignment -name VHDL_FILE DSP_OUT2.vhd
+set_global_assignment -name VHDL_FILE DA_IN.vhd
+set_location_assignment PIN_128 -to CLK1
+set_global_assignment -name QIP_FILE FIFO1.qip
+set_global_assignment -name VHDL_FILE CNT10.vhd
+set_global_assignment -name QIP_FILE fifo_direct.qip
+set_global_assignment -name VHDL_FILE DSP_OUT3.vhd
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA1
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA1[0]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA1[1]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA1[2]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA1[3]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA1[4]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA1[5]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA1[6]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA1[7]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA1[8]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA1[9]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA1[10]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA1[11]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA1[12]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA1[13]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA1[14]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA1[15]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA1[16]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA1[17]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA1[18]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA1[19]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA1[20]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA1[21]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA1[22]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA1[23]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA1[24]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA1[25]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA1[26]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA1[27]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA1[28]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA1[29]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA1[30]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA1[31]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA2
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA2[0]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA2[1]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA2[2]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA2[3]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA2[4]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA2[5]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA2[6]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA2[7]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA2[8]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA2[9]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA2[10]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA2[11]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA2[12]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA2[13]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA2[14]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA2[15]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA2[16]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA2[17]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA2[18]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA2[19]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA2[20]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA2[21]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA2[22]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA2[23]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA2[24]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA2[25]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA2[26]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA2[27]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA2[28]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA2[29]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA2[30]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATA2[31]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATAOUT
+set_instance_assignment -name VIRTUAL_PIN ON -to DATAOUT[0]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATAOUT[0]\$latch
+set_instance_assignment -name VIRTUAL_PIN ON -to DATAOUT[0]_171
+set_instance_assignment -name VIRTUAL_PIN ON -to DATAOUT[1]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATAOUT[1]\$latch
+set_instance_assignment -name VIRTUAL_PIN ON -to DATAOUT[2]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATAOUT[2]\$latch
+set_instance_assignment -name VIRTUAL_PIN ON -to DATAOUT[3]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATAOUT[3]\$latch
+set_instance_assignment -name VIRTUAL_PIN ON -to DATAOUT[4]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATAOUT[4]\$latch
+set_instance_assignment -name VIRTUAL_PIN ON -to DATAOUT[5]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATAOUT[5]\$latch
+set_instance_assignment -name VIRTUAL_PIN ON -to DATAOUT[6]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATAOUT[6]\$latch
+set_instance_assignment -name VIRTUAL_PIN ON -to DATAOUT[7]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATAOUT[7]\$latch
+set_instance_assignment -name VIRTUAL_PIN ON -to DATAOUT[8]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATAOUT[8]\$latch
+set_instance_assignment -name VIRTUAL_PIN ON -to DATAOUT[9]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATAOUT[9]\$latch
+set_instance_assignment -name VIRTUAL_PIN ON -to DATAOUT[10]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATAOUT[10]\$latch
+set_instance_assignment -name VIRTUAL_PIN ON -to DATAOUT[11]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATAOUT[11]\$latch
+set_instance_assignment -name VIRTUAL_PIN ON -to DATAOUT[12]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATAOUT[12]\$latch
+set_instance_assignment -name VIRTUAL_PIN ON -to DATAOUT[13]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATAOUT[13]\$latch
+set_instance_assignment -name VIRTUAL_PIN ON -to DATAOUT[14]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATAOUT[14]\$latch
+set_instance_assignment -name VIRTUAL_PIN ON -to DATAOUT[15]
+set_instance_assignment -name VIRTUAL_PIN ON -to DATAOUT[15]\$latch
+set_instance_assignment -name VIRTUAL_PIN ON -to Equal0
+set_instance_assignment -name VIRTUAL_PIN ON -to Equal1
+set_instance_assignment -name VIRTUAL_PIN ON -to Equal2
+set_instance_assignment -name VIRTUAL_PIN ON -to Equal3
+set_instance_assignment -name VIRTUAL_PIN ON -to Selector0
+set_instance_assignment -name VIRTUAL_PIN ON -to Selector2
+set_instance_assignment -name VIRTUAL_PIN ON -to Selector3
+set_instance_assignment -name VIRTUAL_PIN ON -to Selector4
+set_instance_assignment -name VIRTUAL_PIN ON -to Selector5
+set_instance_assignment -name VIRTUAL_PIN ON -to Selector6
+set_instance_assignment -name VIRTUAL_PIN ON -to Selector7
+set_instance_assignment -name VIRTUAL_PIN ON -to Selector8
+set_instance_assignment -name VIRTUAL_PIN ON -to Selector9
+set_instance_assignment -name VIRTUAL_PIN ON -to Selector10
+set_instance_assignment -name VIRTUAL_PIN ON -to Selector11
+set_instance_assignment -name VIRTUAL_PIN ON -to Selector12
+set_instance_assignment -name VIRTUAL_PIN ON -to Selector13
+set_instance_assignment -name VIRTUAL_PIN ON -to Selector14
+set_instance_assignment -name VIRTUAL_PIN ON -to Selector15
+set_instance_assignment -name VIRTUAL_PIN ON -to Selector16
+set_instance_assignment -name VIRTUAL_PIN ON -to WideNor0
+set_global_assignment -name VHDL_FILE STM32_IN.vhd
+set_global_assignment -name VHDL_FILE STM32_OUT.vhd
+set_global_assignment -name VHDL_FILE STM32_OUT1.vhd
+set_global_assignment -name VHDL_FILE STM32_OUT2.vhd
+set_global_assignment -name VHDL_FILE STM32_OUT3.vhd
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_144 -to ADDR[15]
+set_location_assignment PIN_143 -to ADDR[14]
+set_location_assignment PIN_142 -to ADDR[13]
+set_location_assignment PIN_141 -to ADDR[12]
+set_location_assignment PIN_138 -to ADDR[11]
+set_location_assignment PIN_137 -to ADDR[10]
+set_location_assignment PIN_136 -to ADDR[9]
+set_location_assignment PIN_135 -to ADDR[8]
+set_location_assignment PIN_133 -to ADDR[7]
+set_location_assignment PIN_132 -to ADDR[6]
+set_location_assignment PIN_129 -to ADDR[5]
+set_location_assignment PIN_127 -to ADDR[4]
+set_location_assignment PIN_55 -to ADDR[3]
+set_location_assignment PIN_54 -to ADDR[2]
+set_location_assignment PIN_53 -to ADDR[1]
+set_location_assignment PIN_52 -to ADDR[0]
+set_location_assignment PIN_73 -to AD1DATA[13]
+set_location_assignment PIN_74 -to AD1DATA[12]
+set_location_assignment PIN_75 -to AD1DATA[11]
+set_location_assignment PIN_76 -to AD1DATA[10]
+set_location_assignment PIN_77 -to AD1DATA[9]
+set_location_assignment PIN_80 -to AD1DATA[8]
+set_location_assignment PIN_83 -to AD1DATA[7]
+set_location_assignment PIN_84 -to AD1DATA[6]
+set_location_assignment PIN_85 -to AD1DATA[5]
+set_location_assignment PIN_86 -to AD1DATA[4]
+set_location_assignment PIN_87 -to AD1DATA[3]
+set_location_assignment PIN_98 -to AD1DATA[2]
+set_location_assignment PIN_99 -to AD1DATA[1]
+set_location_assignment PIN_100 -to AD1DATA[0]
+set_location_assignment PIN_103 -to AD2DATA[13]
+set_location_assignment PIN_104 -to AD2DATA[12]
+set_location_assignment PIN_105 -to AD2DATA[11]
+set_location_assignment PIN_106 -to AD2DATA[10]
+set_location_assignment PIN_110 -to AD2DATA[9]
+set_location_assignment PIN_111 -to AD2DATA[8]
+set_location_assignment PIN_112 -to AD2DATA[7]
+set_location_assignment PIN_113 -to AD2DATA[6]
+set_location_assignment PIN_114 -to AD2DATA[5]
+set_location_assignment PIN_115 -to AD2DATA[4]
+set_location_assignment PIN_119 -to AD2DATA[3]
+set_location_assignment PIN_120 -to AD2DATA[2]
+set_location_assignment PIN_121 -to AD2DATA[1]
+set_location_assignment PIN_124 -to AD2DATA[0]
+set_location_assignment PIN_101 -to ADCLK
+set_location_assignment PIN_126 -to ADCLK1
+set_global_assignment -name TIMING_ANALYZER_MULTICORNER_ANALYSIS ON
+set_global_assignment -name SMART_RECOMPILE OFF
+set_global_assignment -name NUM_PARALLEL_PROCESSORS ALL
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

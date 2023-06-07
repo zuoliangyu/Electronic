@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "SPI.C": "cpp",
+    "iwdg.h": "c"
+  }
+}

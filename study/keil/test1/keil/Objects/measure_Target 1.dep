@@ -1,0 +1,4 @@
+Dependencies for Project 'measure', Target 'Target 1': (DO NOT MODIFY !)
+F (.\measure.c)(0x643A0B32)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections-IE:\competition\EE\study\test4.15\keil\RTE\_Target_1-IF:\Keil_v5\ARM\ARM\PACK\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IF:\Keil_v5\ARM\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F407xx-o .\objects\measure.o --omf_browse .\objects\measure.crf --depend .\objects\measure.d)
+I (stm32f4xx.h)(0x643A0B29)
+F (.\stm32f4xx.h)(0x643A0B29)()

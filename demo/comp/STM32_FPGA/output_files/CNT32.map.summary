@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat May 13 11:49:03 2023
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Standard Edition
+Revision Name : CNT32
+Top-level Entity Name : TOP
+Family : Cyclone IV E
+Total logic elements : 521
+    Total combinational functions : 371
+    Dedicated logic registers : 353
+Total registers : 353
+Total pins : 78
+Total virtual pins : 0
+Total memory bits : 38,912
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1

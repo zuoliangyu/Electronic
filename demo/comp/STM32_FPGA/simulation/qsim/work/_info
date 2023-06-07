@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Experiment\CNT321\simulation\qsim
+vCNT32
+Z1 ITU;^V<dMeUk3SPCl4nkO02
+Z2 VQa4NB5>AI7CbO`Pk]NUO;1
+Z3 dC:\Experiment\CNT321\simulation\qsim
+Z4 w1596527981
+Z5 8CNT32.vo
+Z6 FCNT32.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@c@n@t32
+!i10b 1
+Z10 !s100 ]K:im0ak3LBnim283A`Fe3
+!s85 0
+Z11 !s108 1596527983.964000
+Z12 !s107 CNT32.vo|
+Z13 !s90 -work|work|CNT32.vo|
+!s101 -O0
+vCNT32_vlg_check_tst
+!i10b 1
+!s100 MbUKWzGIUFP@EZ;<UUc0z3
+I>V^g]1IC8Db8@dA9K>Zl]3
+VM4^fFR5KEbS3SLLzU>>bm0
+R3
+Z14 w1596527977
+Z15 8CNT32.vwf.vt
+Z16 FCNT32.vwf.vt
+L0 65
+R7
+r1
+!s85 0
+31
+Z17 !s108 1596527984.178000
+Z18 !s107 CNT32.vwf.vt|
+Z19 !s90 -work|work|CNT32.vwf.vt|
+!s101 -O0
+R8
+n@c@n@t32_vlg_check_tst
+vCNT32_vlg_sample_tst
+!i10b 1
+!s100 FmIMU6IC@mLPgY;XS@O1J3
+I96Pe_PbUg@DeAjQF1dzXS3
+VBd7R:^6RZblZeKK;^b><l2
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@c@n@t32_vlg_sample_tst
+vCNT32_vlg_vec_tst
+!i10b 1
+!s100 ]=^;hOLI;?dFS>jhj82Kk2
+I23MfN[9D]YbFlZbQhneX=1
+V4C2]UPZ5ZZfj7@G>6=em?2
+R3
+R14
+R15
+R16
+L0 1301
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@c@n@t32_vlg_vec_tst

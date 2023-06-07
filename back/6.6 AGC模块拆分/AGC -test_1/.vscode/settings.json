@@ -1,0 +1,12 @@
+{
+  "files.associations": {
+    "SPI.C": "cpp",
+    "iwdg.h": "c",
+    "all_include.h": "c",
+    "stm32f4xx_conf.h": "c",
+    "vpp_test": "c",
+    "frequency.h": "c",
+    "adc.h": "c",
+    "vpp_test.h": "c"
+  }
+}
